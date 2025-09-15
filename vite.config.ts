@@ -14,6 +14,7 @@ export default defineConfig({
     alias: {
       "@src": resolve(__dirname, "/src"),
       "@utils": resolve(__dirname, "/src/utils"),
+      "@types": resolve(__dirname, "/src/types"),
     },
   },
   plugins: [dts({ outDir: "dist" }), viteconfigpaths()],
